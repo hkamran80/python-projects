@@ -36,3 +36,7 @@ while num_guesses < MAX_GUESSES:
                 wrong.add(guess)
                 draw_functions[len(wrong) - 1]()
 
+
+
+print('The word was:', word)
+
